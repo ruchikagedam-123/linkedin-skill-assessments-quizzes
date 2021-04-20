@@ -3,7 +3,7 @@
 #### Q1. When rendering a partial in a view, how would you pass local variables for rendering?
 - [ ] `<%= render partial: "nav", selected: "about"}%>`
 - [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
-- [ ] `<%= render partial: "nav", locals: {selected: "about"}`
+- [x] `<%= render partial: "nav", locals: {selected: "about"}`
 
 #### Q2. Within a Rails controller, which code will prevent the parent controller's before_action `:get_feature` from running?
 - [ ] `skip_before_action :get_feature`
